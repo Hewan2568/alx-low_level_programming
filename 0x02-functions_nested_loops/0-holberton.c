@@ -1,18 +1,17 @@
 #include "holberton.h"
 /**
-* main - check the code for Holberton School students.
+* main - prints the string "Holberton" from a character array.
 *
-* Return: Always 0.
+* Return: 0 on success.
 */
-
 int main(void)
 {
-char holberton[9] = "Holberton";
+char c[] = "Holberton";
 int i;
 
 for (i = 0; i < 9; i++)
 {
-_putchar(holberton[i]);
+_putchar(c[i]);
 }
 _putchar('\n');
 return (0);
